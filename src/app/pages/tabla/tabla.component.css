@@ -1,2 +1,19 @@
-
+.container{
+    margin-top: 40px;
+}
+table{
+text-align: center;
+border: 2px solid black;
+}
   
+th,td{
+ border: 2px solid black;
+}
+th{
+    background-color: cadetblue;
+    text-transform: uppercase;
+    font-size: 20px;
+}
+td{
+    font-size: 18px;
+}

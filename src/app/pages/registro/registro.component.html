@@ -1,6 +1,6 @@
 
     <div class="registro">
-        <h1 class="text-center fs-1">Farmacia</h1>
+        <h1 class="text-center fs-1">Articulo</h1>
         <hr>
         <br>
         <form [formGroup]="formRegister">
@@ -9,7 +9,7 @@
                   <label for="producto"><b>Codigo:</b></label>
                 </div>
                  <div class="col-10">
-                  <input type="number"  formControlName="codigo"   id="codigo" class="form-control" >
+                  <input type="number" formControlName="codigo" id="codigo" class="form-control" >
                  </div>
                 </div>
                 <br>
@@ -18,7 +18,7 @@
                  <label for="producto"><b>Producto:</b></label>
                </div>
                 <div class="col-10">
-                 <input type="text"  formControlName="producto"   id="producto" class="form-control">
+                 <input type="text"  formControlName="producto" id="producto" class="form-control">
                 </div>
             </div>
             <br>
@@ -32,7 +32,7 @@
             </div>
             <br>
             <div class="">
-                <button type="submit" class="boton" (click)="registrar()">Registrar</button>
+                <button type="submit" class="btn btn-primary" (click)="registrar()">Registrar</button>
             </div>
         </form>
     </div>

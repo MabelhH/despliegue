@@ -1,3 +1,6 @@
+<div class="container">
+    <h1 class="fs-1 text-center">Lista de Productos</h1>
+    <br>
 <table class="table">
     <thead>
       <tr>
@@ -8,17 +11,20 @@
       </tr>
     </thead>
     <tbody>
-      <tr>
-        <td>1</td>
-        <td>Mark</td>
-        <td>Otto</td>
-        <td>@mdo</td>
+      <tr *ngFor="let prod of tienda">
+        <td>{{prod.codigo}}</td>
+        <td>{{prod.producto}}</td>
+        <td>{{prod.costo}}</td>
+        <td>
+            <button class="btn btn-danger" (click)="onClickDelete(prod)">Eliminar</button>
+            <!-- <button class="boton2" (ciclk)="onClickEditar(prod)">Editar</button> -->
+        </td>
       </tr>
     </tbody>
   </table>
   <br>
   <div class="">
-    <button mat-button (click)="openDialog()">Agregar datos</button>   
+    <button mat-button class="btn btn-info" (click)="openDialog()">Agregar datos</button>   
 </div>
  
 
