@@ -1,6 +1,6 @@
 export interface tienda{
     id?:string;
-    codigo:number;
+    codigo:string;
     producto:string;
     costo:number;
     
