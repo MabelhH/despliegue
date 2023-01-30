@@ -5,7 +5,7 @@ import {TablaComponent } from './tabla/tabla.component';
 import {MatTableModule} from '@angular/material/table';
 import {MatDialogModule} from '@angular/material/dialog';
 import { FormsModule,ReactiveFormsModule} from '@angular/forms';
-
+import { MatButtonModule } from '@angular/material/button';
 @NgModule({
   declarations: [
     RegistroComponent,

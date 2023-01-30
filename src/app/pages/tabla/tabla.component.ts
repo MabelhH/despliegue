@@ -33,6 +33,7 @@ export class TablaComponent {
     const response = this.tiendaservice.deletedFarmacia(tienda)
     console.log(response)
   }
+ 
   
   
   

@@ -30,6 +30,10 @@ export class RegistroComponent {
        const response = this.tienda.addProduct(this.formRegister.value)
        console.log(response)
   }
+  cancelar(){
+    
+  }
+  
   
   
 }
