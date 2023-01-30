@@ -14,7 +14,7 @@
       <tr *ngFor="let prod of tienda">
         <td>{{prod.codigo}}</td>
         <td>{{prod.producto}}</td>
-        <td>{{prod.costo}}</td>
+        <td>s/.{{prod.costo}}</td>
         <td>
             <button class="btn btn-danger" (click)="onClickDelete(prod)">Eliminar</button>
             <!-- <button class="btn btn-primary" (ciclk)="onClickEditar(prod)">Editar</button>  -->
